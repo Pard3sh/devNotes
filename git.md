@@ -56,6 +56,14 @@ Will also tell you which branch you are on.
 
 Commit the changes so that they are ready to be pushed to the remote project.
 
+### change branch name
+
+I like to change branch name from master to main after init
+
+`git branch -m master main`
+
+The format is `-m <original> <new>`
+
 ## Set up remote repo
 
 Create remote repo on github website and then go back to local project terminal at root proj dir.
@@ -67,6 +75,9 @@ Use the ssh version and make sure to set up ssh key for that.
 I have notes for the ssh keys, make sure to reference that. **Git no longer allows for regular password entry, SSH keys are essential**
 
 # Pull all branches 
+
+This is only if you need to access a different remote branch.
+
 `git fetch --all` `git branch -a` // list all branches 
 
 //now switch to it 
@@ -77,6 +88,14 @@ I have notes for the ssh keys, make sure to reference that. **Git no longer allo
 `git push origin <branch-name>` 
 
 Now we can push this to the remote project and others can access it or now we have a safe place to keep it.
+
+Can set an upstream branch so all you need to write is git push origin.
+
+`git push upstream <branch-name>`
+
+now pushes to <branch-name> only need to be:
+
+`git push origin`
 
 ## Work flow after initial set up
 
