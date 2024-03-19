@@ -73,7 +73,8 @@ The format is `-m <original> <new>`
 Create remote repo on github website and then go back to local project terminal at root proj dir.
 
 Then you run the following to add a remote depo:
-`git remote add origin <remote-url>`
+
+```git remote add origin <remote-url>```
 
 Use the ssh version and make sure to set up ssh key for that. 
 I have notes for the ssh keys, make sure to reference that. **Git no longer allows for regular password entry, SSH keys are essential**
