@@ -24,9 +24,13 @@ This creates a hidden `.git` dir that will store all version control info for pr
 
 You can check it out! In the same directory:
 
-`ls -lah # list all hidden files/dirs`
+list all hidden files or directorities:
 
-`cd .git # switch to the hidden git folder`
+`ls -lah` 
+
+switch to said hidden file (in this case .git):
+
+`cd .git`
 
 Do the `ls` command to see what you can check out! `config` file is a good place to check out.
 
