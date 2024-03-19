@@ -82,9 +82,17 @@ I have notes for the ssh keys, make sure to reference that. **Git no longer allo
 
 This is only if you need to access a different remote branch.
 
-`git fetch --all` `git branch -a` // list all branches 
+fetch all branches:
 
-//now switch to it 
+`git fetch --all`
+
+
+list all branches:
+
+`git branch -a` 
+
+now switch to it:
+
 `git checkout <branch-name>`
 
 ## Push to remote
