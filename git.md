@@ -103,7 +103,7 @@ now pushes to <branch-name> only need to be:
 
 ## Work flow after initial set up
 
-- Work Iteratively, add changes in a way that makes sense for documentation and version contrl
+- Work Iteratively, add changes in a way that makes sense for documentation and version control
 
 - Handling Branches / Merging 
 	
