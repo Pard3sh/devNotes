@@ -1,45 +1,9 @@
-# Empirica 
+# Empirica Concepts
+
+Empirica is open source JS framework for running experimental games in the browser.
+
+## Experiments are Event Driven
+
+![Life Cycle](https://docs.empirica.ly/~gitbook/image?url=https:%2F%2F3801646690-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-M-Cqf0McgfJZYwXisux%252F-M_5ri7COWVb0gPSVr41%252F-M_5u7cgy5ZsdnOmkqgX%252FPicture3.png%3Falt=media%26token=2ecb38ae-4a04-4b3b-aa64-acd94b0c9169&width=768&dpr=1&quality=100&sign=c543a54cdad4d56fa4bf04ad1490e6d778659a139c9c84b7126b95e6fa77b176)
 
 
-JS framework for multiplayer interactive games in browser (so cool)
-
-I am learning this frame work for a take home assignment. However, it also seems to be a very cool tool. 
-
-## Set up
-
-Installation Script:
-
-Note: I am working on a Windows computer using `WSL 2 Ubuntu 22.04` so the instructions here are for that set up
-
-Install NVM
-
-```bash
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash  # Download and install
-source ~/.profile  # Reload system environment
-nvm install lts/erbium
-```
-
-File editing option
-
-```bash
-explorer.exe .
-```
-
-installation script
-
-```bash
-curl -fsS https://install.empirica.dev | sh
-```
-
-Creating experiment
-```bash
-empirica create experiment-name
-
-# then run
-
-empirica
-```
-
-Player tab: [http://localhost:3000]
-
-### Other Important Notes will be stored here, but for more info consult the documentation
